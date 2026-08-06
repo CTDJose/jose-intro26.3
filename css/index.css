@@ -1,0 +1,40 @@
+#About {
+    margin: 10px;
+    padding: 40px;
+}
+#Experience {
+    margin: 10px;
+    padding: 40px;
+    display: flex;
+}
+#Connect {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+}
+p {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 100;
+    color: blue;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 50px;
+    color: palevioletred;
+}
+#NameAtTop {
+    font-style: italic;
+}
+li {
+    list-style:square;
+}
+a {
+    color: darkorchid;
+    text-decoration-line: underline;
+    display: flex;
+}
