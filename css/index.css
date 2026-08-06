@@ -13,6 +13,11 @@
     padding: 40px;
     text-align: center;
 }
+#connectLinks {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+}
 p {
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,5 +41,4 @@ li {
 a {
     color: darkorchid;
     text-decoration-line: underline;
-    display: flex;
 }
