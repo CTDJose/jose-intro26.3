@@ -31,7 +31,7 @@ messageForm.addEventListener("submit", function(event) {
     event.preventDefault();
     let firstInput = event.target.usersName.value;
     let secondInput = event.target.usersEmail.value;
-    let thirdInput = event.target.userMessage.value;
+    let thirdInput = event.target.usersMessage.value;
     console.log(firstInput);
     console.log(secondInput);
     console.log(thirdInput);
