@@ -45,3 +45,19 @@ a {
 #Skills {
     display: flex;
 }
+#usersNameSec {
+    padding: 20px;
+}
+#usersEmailSec {
+    padding: 20px;
+}
+#userMessageSec {
+    padding: 20px
+}
+#submitButtonSec {
+    padding: 20px;
+}
+#messageListSec {
+    padding: 20px;
+    font-size: 20px;
+}
