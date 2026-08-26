@@ -51,3 +51,31 @@ messageForm.addEventListener("submit", function(event) {
     messageList.appendChild(newMessage);
     messageForm.reset();
 });
+
+fetch('https://api.github.com/users/CTDJose/repos')
+.then(response => {
+if (!response.ok) {
+    throw new Error ('Request failed');
+}
+return response.json();
+})
+ .then(repositories  => {
+    let projectSection = document.querySelector('#Projects');
+    let projectList = projectSection.querySelector('ul');
+    for (let i = 0; i < repositories.length; i++) {
+        let project = document.createElement('li');
+        project.innerHTML = repositories[i]['name'];
+        projectList.appendChild(project);
+    }
+    //console.log(repositories);
+})
+.catch(error => {
+    console.log('An error has occured', error);
+});
+
+
+
+
+
+
+
