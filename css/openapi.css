@@ -1,0 +1,18 @@
+#WeatherAppBack {
+    background-color: #4a90e2;
+}
+#temperatureButton {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+#precipitationButton {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+#weatherButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
